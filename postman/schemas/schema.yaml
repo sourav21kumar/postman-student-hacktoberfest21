@@ -6,7 +6,7 @@ servers:
   - url: "https://your-api-url.foo"
 paths:
   /:
-    get:
+    get:                                             // COMPLETED
       summary: "Get API status"
       responses:
         "200":
@@ -23,7 +23,7 @@ paths:
               example:
                 status: "ok"
   /contestants:
-    get:
+    get:                                                      //COMPLETED
       summary: "Get Contestants"
       operationId: getContestants
       responses:
@@ -64,7 +64,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/Error'
     post:
-      summary: "Add a contestant"
+      summary: "Add a contestant"                                    // COMPLETED
       operationId: createContestant
       requestBody:
         required: true
@@ -137,7 +137,7 @@ paths:
                 status: error
                 message: Something went wrong
   /contestants/{id}:
-    get:
+    get:                                                               // COMPLETED
       summary: "Get a contestant"
       operationId: getContestant
       parameters:
@@ -231,7 +231,7 @@ paths:
               example:
                 status: error
                 message: Something went wrong
-    delete:
+    delete:                                        //COMPLETED
       summary: "Delete a contestant"
       operationId: deleteContestant
       parameters:

@@ -1,0 +1,19 @@
+{
+  "name": "postman_halloween_costume_contest_api",
+  "version": "1.0.0",
+  "description": "HALLOWEEN COSTUME CONTEST API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11",
+    "nanoid": "^3.1.30"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

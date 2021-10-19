@@ -16,7 +16,7 @@ mongoose.connect(dbURI,{ useNewUrlParser: true, useUnifiedTopology: true})
 
 
 app.get('/',(req,res)=>{
-    res.status(200).send({status:'SUCCESS'})
+    res.status(200).send({status:'ok'})
 })
 
 app.use(api_routes)
